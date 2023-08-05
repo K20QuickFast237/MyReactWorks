@@ -27,3 +27,40 @@ ReactDOM.render(<React.Fragment><Header /><Description /></React.Fragment>, docu
 `*Les commandes*`
 - *yarn/npm run build:*   vous permettra de créer un build  avec votre code transformé et minifié, si vous devez déployer votre application en production (la mettre en ligne, par exemple).
 - *yarn test:*  pour exécuter les tests.
+
+
+### Les Termes de réact:
+
+**Les props:** ce sont les paramètres que l'on passe à nos composants depuis le composant parent. Pour le composant parent, il s'apparente à des attributs que l'on spécifie au composant.
+
+**Les propTypes:** elles nous permettent de préciser dès le début le type d'une prop, si elle est requise, et de lui attribuer une valeur par défaut.
+
+**La prop children:** C'est une prop particulière qui est utilisée lorsque l'on ne connait pas d'avance le contenu d'un composant. Coté enfant elle est récupérée par la prop children. Coté parent elle est générée en imbricant des composants à l'intérieur du composant recevant la prop. exple:  
+- chez le parent: 
+    <monComposant>
+        <h1>un titre</h1>
+        <p>un paragraphe</p>
+        <div>ma div</div>
+    </monComposant>
+- chez l'enfant:
+    function MonComposant({childre}){
+        return(
+            <div className='affichageParticulier'>
+                {children}
+            </div>
+        )
+    }
+
+**Un hook** est une fonction qui permet de *« se brancher » (to hook up)* sur des fonctionnalités React.
+
+**useEffect** permet d'effectuer *des effets* : cela permet à notre composant d'exécuter des actions après l'affichage, en choisissant à quel moment cette action doit être exécutée.
+
+Le hook  useEffect   est appelé après chaque rendu de votre composant. Il est possible de préciser quelle modification de donnée déclenche les effets exécutés dans useEffect, avec le tableau de dépendances.
+
+Un tableau de dépendances vide permet d'exécuter un effet uniquement au premier rendu de votre composant.
+
+*Remarques:* 
+- Il faut toujours appeler  useEffect  au niveau racine votre composant, sans l'inclure dans une condition, une fonction imbriquée ou une boucle
+
+### Quelques liens
+- Des outils pour la [gestion des formulaires](https://react-hook-form.com/)
