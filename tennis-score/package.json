@@ -1,22 +1,18 @@
 {
-  "name": "shiny-agency",
+  "name": "tennis-score",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "localforage": "^1.10.0",
-    "match-sorter": "^6.3.1",
-    "prop-types": "^15.8.1",
+    "immer": "^10.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.10.0",
+    "react-redux": "^8.1.2",
     "react-scripts": "5.0.1",
-    "sort-by": "^1.2.0",
-    "styled-components": "^6.0.7",
-    "web-vitals": "^2.1.4",
-    "@babel/plugin-proposal-private-property-in-object": "7.21.11"
+    "redux": "^4.2.1",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -41,14 +37,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "eslint": "^8.2.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-react": "^7.28.0",
-    "eslint-plugin-react-hooks": "^4.3.0",
-    "prettier": "^3.0.1"
   }
 }
