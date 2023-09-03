@@ -1,0 +1,24 @@
+Allez plus loin
+Vous avez envie d'approfondir votre connaissance de React ?
+
+Ça tombe bien, il existe un tas de ressources pour vous lancer sur cette voie.
+
+Il existe d'autres cours qui pourront compléter vos compétences, tels que le cours d’OpenClassrooms :
+
+"Créez une application React Complète" pour en faire plus avec React
+
+"Utilisez le state manager Redux pour gérer l'état de vos applications" sur le State Management
+
+“Mettez en place un système de veille informationnelle” pour apprendre à créer une veille.
+
+Si vous voulez vous tenir au courant de ce qui se passe dans la communauté React, plusieurs options s'offrent à vous:
+
+Le blog de React (en anglais 🇬🇧) pour se tenir informé officiellement des nouveautés
+
+React Hebdo newsletter (en français 🇫🇷) : vous pourrez vous tenir au courant des actualités liées à React et React Native
+
+Le blog de Kent C. Dodds (en anglais 🇬🇧) : c'est le créateur de la bibliothèque React Testing Library, et ses articles sont très pertinents ;
+
+Le compte Twitter de Dan Abrahamov (en anglais 🇬🇧): c'est l'un des membres de la core team React, il tweet régulièrement sur React et son environnement
+
+Le site CSS Tricks (en anglais 🇬🇧): un excellent blog spécialisé sur le CSS qui contient toute une section dédiée à React
